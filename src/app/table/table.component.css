@@ -1,0 +1,33 @@
+th{
+    background: #000;
+    color: white;
+    padding: 20px;
+}
+
+th:hover {
+background: grey;
+}
+td:hover{
+    font-weight: bold;
+}
+tr{
+    background-color: lightcyan;
+    border: 20px solid transparent;
+
+}
+tr:hover{
+    background-color:lightskyblue;
+
+}
+img:hover{
+    width: 110px;
+    height: 110px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+    color: brown;     
+}
