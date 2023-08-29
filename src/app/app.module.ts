@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 import { TableComponent } from './table/table.component';
+import { EmployeeDetailsService } from './employee-details.service';
 
 @NgModule({
   declarations: [AppComponent, TableComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule, FormsModule],
-  providers: [],
+  providers: [EmployeeDetailsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
