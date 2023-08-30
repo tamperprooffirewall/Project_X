@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { TableComponent } from './table/table.component';
 import { EmployeeDetailsService } from './employee-details.service';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [AppComponent, TableComponent],
@@ -17,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     NgbModule,
     FormsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
   ],
   providers: [EmployeeDetailsService],
   bootstrap: [AppComponent],
